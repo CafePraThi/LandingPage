@@ -13,19 +13,23 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body class="main-bg">
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1>
+            <h1 onclick="getElementById('close-menu').checked = false;">
                 <a href="#">LOGO</a>
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">Inicio</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#Projetos">Projetos</a></li>
-                    <li><a href="#grid">PENDENTE</a></li>
-                    <li><a href="#Contato">Contato</a></li>
+                    <li><a href="#grid">Pendente</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -120,9 +124,56 @@
         </div>
     </section>
 
-    <section id="Contato" class="main-bg section">
-        <h2>CONTATOS</h2>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Olá, me chamo thiago!</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/contact.svg" alt="Homem assinando contrato">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend> Entre em contato:</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">Primeiro nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome" >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Ultimo nome</label>
+                        <input type="text" name="last-name" id="last-name"placeholder="Seu ultimo nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email"placeholder="Seu e-mail nome">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit" >Enviar Mensagem</button>
+                    </div>
+
+                </fieldset>
+            </div>
+        </div>
     </section>
+
+    <footer id="footer" class="white-bg footer">
+        <p><a href=""> Você está vendo a nota de rodapé. Isso significa que você chegou ao final do meu site. </a></p>
+    </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
 
 </body>
 
