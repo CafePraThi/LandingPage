@@ -1,6 +1,6 @@
 :root{
-    --primary-color: #132E65;
-    --secondary-color: crimson;
+    --primary-color: #193735;
+    --secondary-color: 	#372619;
     --white-color: #ffffff;
     --light-gray-color: #eeeeee;
     --gap: 3rem;
@@ -60,7 +60,7 @@ p {
 }
 
 .main-bg{
-    background-image: url('../img/main_bg.svg');
+    background-image: url('../img/main_bg_gray.svg');
     background-size: cover;
     background-position: center center;
     color: var(--white-color)
