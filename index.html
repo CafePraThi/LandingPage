@@ -23,7 +23,7 @@
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1 onclick="getElementById('close-menu').checked = false;">
-                <a href="#">{CAFEPRA/THI}</a>
+                <a href="#">{CAFEPRA/<span>THI</span>}</a>
             </h1>
             <nav>
                 <ul onclick="getElementById('close-menu').checked = false;">
@@ -42,7 +42,7 @@
     <section id="intro" class="intro main-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-                <h2>Olá, me chamo Thiago!</h2>
+                <h2>Olá, me chamo <span>Thiago!</span></h2>
                 <p>Aqui você encontrará informações sobre mim, meus projetos e minhas habilidades em programação.</p>
                 <div class="social-menu">
                     <ul>
@@ -57,35 +57,37 @@
 
             </div>
             <div class="intro-img">
-                <img src="assets/img/main_intro.svg" alt="Homem programando no notebook e com moinitor complementar">
+                <img src="assets/img/Code-intro.svg" alt="Homem programando no notebook e com moinitor complementar">
             </div>
         </div>
     </section>
 
-    <section id="sobre" class="white-bg section">
-        <div class="main-content sobre-content sobre">
+    <section id="sobre" class="white-bg section sobre">
+        <div class="sobre-img main-content">
             <img src="assets/img/Sobre.jpg">
-            
-            <div class="sobre-texto">
+        </div>
+
+        <div class="sobre-texto main-content">
             <h2>Sobre</h2>
-            <h5>Back End</h5>
-            <p>Pellentesque porta tempus urna ac malesuada. Maecenas vel purus volutpat orci maximus porttitor sed in
-                urna. Praesent dictum leo id leo efficitur, a posuere diam bibendum. Vestibulum ante ipsum primis in
-                faucibus orci luctus et ultrices posuere cubilia curae; Curabitur sit amet placerat lacus, at ornare
-                libero. Mauris porttitor eros vitae mattis dignissim. Donec in dolor nec metus porttitor fringilla vel
-                non arcu.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat turpis semper lacus tristique,
-                non aliquet elit suscipit. In in aliquam enim.</p>
+            <h5><span>Thiago</span></h5>
+            <p>Sou formado em Ciência da Computação e tenho 4 anos de experiência em TI. Tenho paixão pelo mundo da
+                tecnologia e sempre busco aprimorar meus conhecimentos nessa área.</p>
+            <p>Durante minha carreira, fui responsável por implantar sistemas como ERP, CRM e ChatBots, garantindo que
+                eles fossem adaptados da melhor maneira possível para atender às necessidades das áreas. Além disso,
+                realizei processos de automação usando Python e estou sempre buscando aperfeiçoar minhas habilidades em
+                desenvolvimento Back-End.</p>
+            <p>Me considero um profissional de fácil adaptação, capaz de superar desafios e sempre preocupado com a
+                entrega final. Estou animado para explorar novas oportunidades na área de desenvolvimento e continuar
+                crescendo como profissional.</p>
 
         </div>
-    </div>
     </section>
 
 
     <section id="Projetos" class="main-bg section">
         <div class="main-content ">
-            <h2 class="grid-main-heading-">PROJETOS</h2>
-            <p class="grid-description">Descricao menorzinha</p>
+            <h2 class="grid-main-heading-">Meus <span>Projetos</span></h2>
+            <p class="grid-description">Aqui estão alguns dos meus projetos ja desenvolvidos.</p>
 
             <div class="portifolio-content">
                 <div class="row">
@@ -156,45 +158,99 @@
         </div>
     </section>
 
+    <section id="skills" class="skills_section white-bg section">
+        <div class="skills_head main-content">
+            <h2>Minhas <span>Skills</span></h2>
+            <p>Aqui estão minhas habilidades para representar minha experiência</p>
+        </div>
 
-    <section id="skills" class="grid white-bg section">
-        <div class="main-content grid-content">
-            <h2 class="grid-main-heading-">EM BREVE</h2>
-            <p class="grid-description">Descricao menorzinha</p>
-            <div class="grid">
-                <article>
-                    <h3>Opcao 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto asperiores debitis laborum
-                        laudantium quam. Beatae, officiis rerum unde accusamus at, animi cumque iusto temporibus
-                        similique
-                        totam numquam exercitationem, accusantium eum!</p>
-                </article>
-                <article>
-                    <h3>Opcao 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto asperiores debitis laborum
-                        laudantium quam. Beatae</p>
-                </article>
-                <article>
-                    <h3>Opcao 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto asperiores debitis laborum
-                        laudantium quam. Beatae, officiis rerum unde accusamus at, animi cumque iusto temporibus
-                        similique
-                        totam numquam exercitationem, accusantium eum!</p>
-                </article>
+        <div class="skills_main">
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Python</p>
+                    <P>70%</P>
+                </div>
+                <div class="bar">
+                    <span class="python"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Django</p>
+                    <P>30%</P>
+                </div>
+                <div class="bar">
+                    <span class="django"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Selenium</p>
+                    <P>60%</P>
+                </div>
+                <div class="bar">
+                    <span class="selenium"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>SQL</p>
+                    <P>60%</P>
+                </div>
+                <div class="bar">
+                    <span class="sql"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>C#</p>
+                    <P>30%</P>
+                </div>
+                <div class="bar">
+                    <span class="csharp"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Java</p>
+                    <P>30%</P>
+                </div>
+                <div class="bar">
+                    <span class="java"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <P>65%</P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <P>40%</P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
             </div>
         </div>
     </section>
-
-
+    
     <section id="contact" class="main-bg contact section">
         <div class="contact-text main-content">
-            <h2>Entre em Contato!</h2>
-            <h4>Teste</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h2>Entre em <span>Contato!</span></h2>
+            <h4>Vamos trabalhar juntos</h4>
+            <p>Se você gostou do meu trabalho e está interessado em trabalhar comigo, entre em contato pelo meu E-mail
+                ou Telefone. Você também pode encontrar-me nas redes sociais, onde compartilho meus projetos e artigos
+                sobre desenvolvimento de software.</p>
             <div class="list">
-                <li><a href="#">+5511982911379</a></li>
+                <li><a href="#">+55 (11) 98291-1379</a></li>
                 <li><a href="#">thiago.siix@gmail.com</a></li>
-                <li><a href="#">Teste</a></li>
+                <li><a href="#">Outras redes:</a></li>
             </div>
 
             <div class="social-menu">
@@ -212,14 +268,16 @@
                 <input class="contact-input" type="name" placeholder="Seu Nome" required>
                 <input class="contact-input" type="email" placeholder="Seu Email" required>
                 <input class="contact-input" type="" placeholder="Seu numero de telefone" required>
-                <textarea class="contact-textarea" name="" id="" cols="35" rows="10" placeholder="Sua Mensagem" required></textarea>
+                <textarea class="contact-textarea" name="" id="" cols="35" rows="10" placeholder="Sua Mensagem"
+                    required></textarea>
                 <input type="submit" value="Enviar Mensagem" class="contact-input submit" required>
-            </form>   
-        </div>    
+            </form>
+        </div>
     </section>
 
     <footer id="footer" class="white-bg footer">
-        <p><a href=""> Você está vendo a nota de rodapé. Isso significa que você chegou ao final do meu site. </a></p>
+        <p><a href=""> Você está vendo a nota de rodapé. Isso significa que você chegou ao final do meu site.<i
+                    class='bx bxs-coffee'></i></a></p>
     </footer>
 
     <a class="back-to-top" href="#intro"><i class='bx bx-up-arrow-alt'></i></a>
