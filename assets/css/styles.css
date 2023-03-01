@@ -222,38 +222,6 @@ SEÇÃO 2 #SOBRE
     margin-bottom: 3rem;
 }
 
-
-/*
-SEÇÃO COM GRID
-.grid-content {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-.grid-main-heading {
-    margin-bottom: 1rem;
-}
-
-.grid-description {
-    padding-bottom: 5rem;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--gap);
-}
-
-.grid h3 {
-    font-size: 3rem;
-    position: relative;
-}*/
-
-/*
-PROJETOS
-*/
 .projetos-img {
     width: 100%;
     max-width: 36rem;
