@@ -635,7 +635,7 @@ MENU SOCIAL
 }
 
 .skill_bar .bar .python {
-    width: 70%;
+    width: 65%;
     animation: python 2s;
 }
 
@@ -645,12 +645,12 @@ MENU SOCIAL
     }
 
     100% {
-        width: 70%;
+        width: 65%;
     }
 }
 
 .skill_bar .bar .django {
-    width: 30%;
+    width: 40%;
     animation: django 2s;
 }
 
@@ -660,12 +660,12 @@ MENU SOCIAL
     }
 
     100% {
-        width: 30%;
+        width: 40%;
     }
 }
 
 .skill_bar .bar .selenium {
-    width: 60%;
+    width: 50%;
     animation: selenium 2s;
 }
 
@@ -675,12 +675,12 @@ MENU SOCIAL
     }
 
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
 .skill_bar .bar .sql {
-    width: 60%;
+    width: 55%;
     animation: sql 2s;
 }
 
@@ -690,12 +690,12 @@ MENU SOCIAL
     }
 
     100% {
-        width: 60%;
+        width: 55%;
     }
 }
 
 .skill_bar .bar .csharp {
-    width: 30%;
+    width: 20%;
     animation: csharp 2s;
 }
 
@@ -705,12 +705,12 @@ MENU SOCIAL
     }
 
     100% {
-        width: 30%;
+        width: 20%;
     }
 }
 
 .skill_bar .bar .java {
-    width: 30%;
+    width: 35%;
     animation: java 2s;
 }
 
@@ -720,12 +720,12 @@ MENU SOCIAL
     }
 
     100% {
-        width: 30%;
+        width: 35%;
     }
 }
 
 .skill_bar .bar .html {
-    width: 65%;
+    width: 55%;
     animation: html 2s;
 }
 
@@ -735,12 +735,12 @@ MENU SOCIAL
     }
 
     100% {
-        width: 65%;
+        width: 55%;
     }
 }
 
 .skill_bar .bar .css {
-    width: 40%;
+    width: 25%;
     animation: css 2s;
 }
 
@@ -750,6 +750,6 @@ MENU SOCIAL
     }
 
     100% {
-        width: 40%;
+        width: 25%;
     }
 }
